@@ -1,6 +1,5 @@
 import java.util.Map;
 import java.util.HashMap;
-import java.util.Iterator;
 
 public class Student {
     String second_name;
@@ -38,7 +37,7 @@ public class Student {
         Student student9 = new Student();
         Student student10 = new Student("Levadnii");
 
-        for (Map.Entry entry: hash_map.entrySet()) {
+        for (Map.Entry entry : hash_map.entrySet()) {
             System.out.println(entry);
         }
 
